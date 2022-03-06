@@ -28,6 +28,7 @@ export default () => {
     }
   }, [isSignedIn]);
 
+
   return (
     <Router history={history}>
       <StylesProvider generateClassName={generateClassName}>
